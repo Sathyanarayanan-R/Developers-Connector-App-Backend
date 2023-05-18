@@ -1,5 +1,3 @@
-(https://github.com/Sathyanarayanan-R)
-
 # DevConnectorn MERN APP
 
 <img src="./logo.jpg" width="240"/>
