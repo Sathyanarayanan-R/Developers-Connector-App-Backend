@@ -3,8 +3,11 @@ const connectDB = require('./config/db');
 const colors = require('colors');
 const path = require('path');
 const dotenv = require('dotenv');
+const cors = require('cors');
 
 const app = express();
+
+app.use(cors());
 
 dotenv.config();
 
