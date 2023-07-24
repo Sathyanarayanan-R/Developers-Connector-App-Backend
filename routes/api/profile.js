@@ -258,7 +258,6 @@ Router.delete('/experience/:experience_id', protectedUser, async (req, res) => {
 		profile.experience = profile.experience.filter((exp) => exp._id.toString() !== req.params.experience_id);
 
 		await profile.save();
-		console.log(profile);
 		return res.status(200).json(profile);
 	} catch (error) {
 		console.error(error.message);
