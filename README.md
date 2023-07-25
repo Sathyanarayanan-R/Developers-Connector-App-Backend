@@ -1,22 +1,24 @@
-# DevConnectorn MERN APP
+# DevConnector MERN APP
 
 <img src="./logo.jpg" width="240"/>
 
 # Project Done By:  <a href="https://github.com/Sathyanarayanan-R" noreferrer target="_blank">Sathyanarayanan R</a>
 
-# A Social Platform for developers to communicate through posts
+# A Social Platform for developers to communicate through real time chat/posts
 
-## Deployed Website
+## Deployed Website : https://developers-connector-sj.netlify.app
 
+## Github Repositories
 
+Frontend Link : https://github.com/Sathyanarayanan-R/Developers-Connector-App-Frontend
 
-## Github Repository
+Backend Link : https://github.com/Sathyanarayanan-R/Developers-Connector-App-Backend
 
-
+Socket.IO Server Link : https://github.com/Sathyanarayanan-R/Developers-Connector-App-Socket.IO
 
 ## Purpose
 
-	DevConnector is mainly designed to share the ideas, skills and knowledge to wide developers around the world. New Bees can easily interact with the experienced developers and they can tune their skills. Also, Developers can expose their sharing and teaching skills.
+	DevConnector is mainly designed to share the ideas, skills and knowledge to wide developers around the world. Developer can easily interact with the other developers via Chat/Post and they can tune their skills. Also, Developers can expose their sharing and teaching skills.
 
 #### User authentication/login system
 
@@ -33,6 +35,8 @@ The dashboards serve the purpose of collecting all of the relevant information o
 
 From either the fresher or experienced dashboard, there will be the ability to initiate a live text medium to post something, that is more useful to readers also.
 
+Socket.IO has been implemented in this App for having Real Time Chat among users.
+
 ## Target Audience
 
 Mainly designed for the buddies who are very eager to learn programming and they miss the oppurtunity to connect with senior or skilled devleopers. This platform will be a sugar syrup for them to build a sweet applications.
@@ -45,6 +49,7 @@ Mainly designed for the buddies who are very eager to learn programming and they
 - Node.js
 - React Redux
 - Mongoose
+- Socket.IO
 
 
 DevConnector is a full stack application built on the MERN stack (MongoDB, Express, React and Node) and utilises a range of open source libraries to assist with accelerating development time and improving authentication security. MongoDB was chosen as the Database Management System (DBMS) for several reasons, including that it affords dynamic and flexible document schemas that can contain a wide range of data attached to both patients and doctors respectively. Furthermore, MongoDB stores document data in Binary JSON (BSON), which integrates seamlessly with the core JavaScript-driven technologies of DevConnector’s tech stack.
@@ -55,6 +60,7 @@ A JSON Web Token strategy for authentication of users will be employed. It allow
 
 Mongoose will be used with our MongoDB implementation, it is an Object Data Modelling (ODM) library for use with MongoDB and Node.js. It assists in managing the relationships between data, provides schema validation and is used to translate between objects in Node.js code and the representation of those objects in MongoDB.
 
+Socket.IO is a JavaScript library for real-time web applications. It enables real-time, bi-directional communication between web clients and servers. It has two parts − a client-side library that runs in the browser, and a server-side library for node.js. Both components have an identical API.
 
 DevConnector is a single page application (SPA) that utilises the dashboard component as the main wrapper element for rendering various view layers.
 
@@ -68,6 +74,8 @@ Unauthenticated users can ONLY use the dashboard to view the developers profile.
 ![DevConnector Developers View](docs/DevelopersPage.jpg)
 ![DevConnector Dashboard Page](docs/DashboardPage.jpg)
 ![DevConnector Developers Discussion Page](docs/DiscussionPage.jpg)
+![DevConnector Developers Chat Page 1](docs/ChatPage1.jpg)
+![DevConnector Developers Chat Page 2](docs/ChatPage2.jpg)
 ![DevConnector User Profile Basic Details View Part-1](docs/ProfilePage1.jpg)
 ![DevConnector User Profile Academic Details View Part-2](docs/ProfilePage2.jpg)
 ![DevConnector Edit Profile Page](docs/ModifyProfilePage.jpg)
